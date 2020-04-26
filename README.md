@@ -6,12 +6,6 @@
 As part of management I want an employee directory so that I can view all non-sensitive information on current employees, in the event that I may need to distribute information to one or all employees.
 <br>
 
-## DESCRIPTION
-
-An employee directory created for a fictional bakery.
-
-
-<br>
 
 ## TABLE OF CONTENTS
 
@@ -26,10 +20,14 @@ An employee directory created for a fictional bakery.
 
 ## FEATURES
 
-1. Ability to see everyone employee of Cal-O-Cakes Bakery.
-2. Search employee directory by typing in an employee's name.
-3. Sort the employees in alphabetical order by clicking the name column.
+The user will be able to have access to a directory of random employees.
+The user can sort through and filter out particular employees if they wish.
 
+1. To sort employees from A-Z, simply click either the first or last name heading on the table.
+   
+    *To sort Z-A, simply click the same heading.
+
+2. To filter through employees by name, begin typing in the search box until the desired name is provided.
 
 <br>
 
@@ -37,7 +35,7 @@ An employee directory created for a fictional bakery.
 
 To run on local computers:
 
-1. The user will need to install the following dependencies by running npx create-react-app <filename>:
+1. The user will need to install the following dependencies by running **npx create-react-app**
 
 2. Delete the react generated src folder and paste in the src file in this repo.
 
@@ -45,7 +43,7 @@ To run on local computers:
 
 ### PREVIEW
 
-<img src="./Employee_directory.gif" alt="preview image"/>
+<img src="public/Employee_directory.gif" alt="preview image"/>
 
 <br>
 
@@ -63,7 +61,7 @@ To run on local computers:
 
 ***Deployed to Heroku***
 
-[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](need heroku link)
+[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://shrouded-harbor-34309.herokuapp.com/)
 
 
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/lturner19/CalOCakes_Employee_Directory)
