@@ -1,30 +1,33 @@
+
 import React from "react";
-import Header from "./components/Header"
-import TableHeadings from "./components/TableHead";
-import EmployeeRows from "./components/TableRows";
+import Header from "./components/Header/Header";
+import TableHeadings from "./components/TableHead/TableHead";
+import EmployeeRows from "./components/TableRows/TableRows";
 import Employees from "./employees.json";
 
 class App extends React.Component {
   state = {
     Employees,
-    search: ""
+    search: "",
   };
 
-searchEmployees = event =>{
-  const name = event.target.name;
-  let value = event.target.value;
-  this.setState({
-    [name]: value
-  });
-};
+//needed to search employees
+searchEmployees = event => {
+    const name = event.target.value;
+    let value = event.target.value;
+    this.setState ({
+      [name]:value
+    })
+    }
+ 
 
 
-
-  render() {
+  render() {   
     return (
       <div>
       <Header/>
       <table className="table table-striped">
+        {/* using the ascending from state */}
           <TableHeadings />
           <EmployeeRows />
       </table>
@@ -32,5 +35,4 @@ searchEmployees = event =>{
     )
   }
 }
-
 export default App;
