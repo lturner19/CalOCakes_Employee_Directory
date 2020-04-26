@@ -8,17 +8,17 @@
       "sizes": "16x16"
     },
     {
-      "src": "Employee-144.png",
+      "src": "./icons/Employee-144.png",
       "type": "image/png",
       "sizes": "144x144"
     },
     {
-      "src": "Employee-192.png",
+      "src": "./icons/Employee-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "Employee-512.png",
+      "src": "./icons/Employee-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
