@@ -1,7 +1,4 @@
-# Cal-O-Cake Bakery's Employee Directory
-
-
-# Money Tracker
+# Cal-O-Cakes Bakeshop Employee Directory
 
 <br>
 
