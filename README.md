@@ -63,11 +63,11 @@ To run on local computers:
 
 [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://shrouded-harbor-34309.herokuapp.com/)
 
+[![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com)
+
 
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/lturner19/CalOCakes_Employee_Directory)
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
-
-![no ragrets image](https://img.shields.io/badge/Made%20with%20-No%20Ragrets-red)
-![netflix badge](https://img.shields.io/badge/Powered%20By%3A-Netflix-lightgrey)
 
 
