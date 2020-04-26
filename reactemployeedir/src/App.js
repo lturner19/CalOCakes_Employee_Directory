@@ -14,12 +14,20 @@ class App extends React.Component {
 
   //needed to search employees
   searchEmployees = event => {
-    const name = event.target.value;
-    let value = event.target.value;
+    //destructuring the name and value from event.target
+    const {name, value} = event.target;
     this.setState({
       [name]: value
     })
-  }
+
+    let newEmployee = this.state.originalList.filter(employee => {
+      return employee.name.first.toLowerCase().indexOf(value.toLowerCase()) > -1 || employee.name.last.toLowerCase().indexOf(value.toLowerCase());
+    })
+    
+    this.setState({
+      employee: newEmployee
+    })
+  };
 
 
 
