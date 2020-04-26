@@ -1,5 +1,4 @@
 # Cal-O-Cakes Bakeshop Employee Directory
-
 <br>
 
 ## INTRODUCTION
@@ -28,7 +27,7 @@ An employee directory created for a fictional bakery.
 ## FEATURES
 
 1. Ability to see everyone employee of Cal-O-Cakes Bakery.
-2. Search employee directory by typing in the employee's name.
+2. Search employee directory by typing in an employee's name.
 3. Sort the employees in alphabetical order by clicking the name column.
 
 
@@ -46,8 +45,7 @@ To run on local computers:
 
 ### PREVIEW
 
-
-<img src=>
+<img src="./Employee_directory.gif" alt="preview image"/>
 
 <br>
 
@@ -56,6 +54,7 @@ To run on local computers:
 ***Screencastify***: Google extension used to generate gif preview.
 
 [Random User Generator](https://randomuser.me/): Free, open-source API to generator employee information for directory.
+[API](https://randomuser.me/api/?results=200&nat=us)
 
 <br>
 
@@ -74,4 +73,3 @@ To run on local computers:
 ![netflix badge](https://img.shields.io/badge/Powered%20By%3A-Netflix-lightgrey)
 
 
-  [API](https://randomuser.me/api/?results=200&nat=us)
