@@ -1,26 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./components/Header"
+import TableHeadings from "./components/TableHead";
+import EmployeeRows from "./components/TableRows";
+import Employees from "./employees.json";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  state = {
+    Employees,
+    search: ""
+  };
+
+searchEmployees = event =>{
+  const name = event.target.name;
+  let value = event.target.value;
+  this.setState({
+    [name]: value
+  });
+};
+
+
+
+  render() {
+    return (
+      <div>
+      <Header/>
+      <table className="table table-striped">
+          <TableHeadings />
+          <EmployeeRows />
+      </table>
+      </div>
+    )
+  }
 }
 
 export default App;
