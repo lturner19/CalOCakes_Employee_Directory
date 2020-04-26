@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-function PageHeader(props) {
+function Header(props) {
 return (
     <div className="jumbotron jumbotron-fluid">
     <div className="container">
@@ -22,4 +22,4 @@ return (
 )
 }
 
-export default PageHeader;
+export default Header;
