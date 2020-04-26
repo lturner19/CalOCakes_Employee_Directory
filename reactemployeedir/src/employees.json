@@ -1,0 +1,78 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Ricardo",
+        "last": "Phillips"
+      },
+      "email": "ricardo.phillips@example.com",
+      "login": {
+        "uuid": "cba46023-4a46-4030-8e4f-ac55b57ea760",
+        "username": "crazywolf713",
+        "password": "teens",
+        "salt": "qPqAblbX",
+        "md5": "a16713079d20e4ab0f0729088d45cf45",
+        "sha1": "02739c2d968ce4e08a22fecc66d51b04a960d800",
+        "sha256": "a79331241f11274d7fd3d65de726a751894870f3e5b43f23800d21c7bd90f157"
+      },
+      "dob": {
+        "date": "1986-01-19T07:16:01.675Z",
+        "age": 34
+      },
+      "phone": "(734)-964-3013",
+      "cell": "(676)-275-0883",
+      "id": {
+        "name": "SSN",
+        "value": "908-49-2303"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/36.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/36.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/36.jpg"
+      },
+      "nat": "US"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Eduardo",
+        "last": "Arnold"
+      },
+      "email": "eduardo.arnold@example.com",
+      "login": {
+        "uuid": "bcb3b81d-e5e0-4e7f-b406-42405e77ad73",
+        "username": "redlion629",
+        "password": "cooler",
+        "salt": "Dok9Vt2o",
+        "md5": "f32e476dfa7aed39272b6701eca970ff",
+        "sha1": "5dfac0c29befbe9ca06a3f9b203500412d3b1b85",
+        "sha256": "473843ca17d93d2ee5260065014f9690eecd83f2b01effdc0c4c9290779a07df"
+      },
+      "dob": {
+        "date": "1981-01-23T19:25:57.216Z",
+        "age": 39
+      },
+      "phone": "(697)-711-7494",
+      "cell": "(469)-900-8774",
+      "id": {
+        "name": "SSN",
+        "value": "358-10-7508"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/5.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/5.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/5.jpg"
+      },
+      "nat": "US"
+    }
+  ],
+  "info": {
+    "seed": "2fe09c1952fb8982",
+    "results": 2,
+    "page": 1,
+    "version": "1.3"
+  }
+}
