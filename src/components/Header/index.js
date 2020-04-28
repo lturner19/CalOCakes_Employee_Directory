@@ -1,6 +1,6 @@
 // component to render the Jumbotron heading
 import React from 'react';
-import './Header.css';
+import "./style.css";
 
 function Header(props) {
 return (

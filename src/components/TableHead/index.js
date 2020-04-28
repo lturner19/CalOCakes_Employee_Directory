@@ -1,5 +1,5 @@
 import React from 'react';
-import './TableHead.css';
+import "./style.css";
 
 function TableHead(props) {
     return (
