@@ -63,7 +63,7 @@ To run on local computers:
 
 [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://shrouded-harbor-34309.herokuapp.com/)
 
-[![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://github.com/lturner19/CalOCakes_Employee_Directory)
 [![forthebadge](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com)
 
 

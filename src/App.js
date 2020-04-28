@@ -1,9 +1,9 @@
 
 import React, {Component} from "react";
-import Header from "./components/Header/Header";
-import TableHeadings from "./components/TableHead/TableHead";
-import EmployeeRows from "./components/TableRows/TableRows";
-import Footer from "./components/Footer/Footer";
+import Header from "./components/Header";
+import TableHeadings from "./components/TableHead";
+import EmployeeRows from "./components/TableRows";
+import Footer from "./components/Footer";
 import Employees from "./employees.json";
 
 class App extends Component {
