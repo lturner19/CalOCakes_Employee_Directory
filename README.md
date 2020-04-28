@@ -52,7 +52,7 @@ To run on local computers:
 ***Screencastify***: Google extension used to generate gif preview.
 
 [Random User Generator](https://randomuser.me/): Free, open-source API to generator employee information for directory.
-[API](https://randomuser.me/api/?results=200&nat=us)
+ * or [API](https://randomuser.me/api/?results=200&nat=us) link
 
 <br>
 
