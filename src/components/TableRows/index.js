@@ -6,11 +6,13 @@ function TableRows(props) {
         <tbody>
         {/* keep this set up employees, then employee */}
         {/* employee is singular because it is pointing to each individual*/}
-        {/* index is standard to map callback (like (i) is used in for loops) */}
-            {props.employees.map((employee, index) => {
+        {/* could setup (employee, index) index is standard to map callback (like (i) is used in for loops) */}
+            {props.employees.map((employee) => {//index can be used here when there is not an id # available
                 return(
                 //the names after employee, must match the keys from employee.json
-                <tr className="rows" key={index}>
+                //could setup employee.index
+                //keys must always be unique identifiers
+                <tr className="rows" key={employee.dob.date}> 
                     <td><img src={employee.picture.thumbnail} alt={employee.name.first} /></td>
                     <td>{employee.name.first}</td>
                     <td>{employee.name.last}</td>
