@@ -40,10 +40,11 @@ class App extends Component {
 
   // ``````````End searchEmployees function```````````````````````
 
-
-  ascending = (columnName) => {
+//sorting employees (A-Z and Z-A) by clicking the first and last name headings
+  sortEmployees = (columnName) => {
     console.log(this.state.employees);
 
+    // after heading is clicked to sort employees ascending, it will then set heading to descending
     let newEmployees;
     if (this.state.sortType === "ascending") {
       newEmployees = this.state.Employees.sort((a, b) => a.name[columnName].localeCompare(b.name[columnName]));
@@ -51,7 +52,7 @@ class App extends Component {
         Employees: newEmployees,
         sortType: "descending"
       })
-    } else {
+    } else {//does the reverse of above comment
       newEmployees = this.state.Employees.sort((a, b) => b.name[columnName].localeCompare(a.name[columnName]));
       this.setState({
         Employees: newEmployees,
@@ -71,7 +72,7 @@ class App extends Component {
         <table className="table table-striped">
           {/* using the ascending from state */}
           <TableHeadings
-          ascending={this.ascending}
+          sortEmployees={this.sortEmployees}
           />
           <EmployeeRows 
           employees={this.state.Employees}

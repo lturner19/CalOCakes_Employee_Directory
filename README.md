@@ -11,10 +11,9 @@ As part of management I want an employee directory so that I can view all non-se
 
 
 1. [FEATURES](#features)
-2. [INSTALLATION](#installation)
-3. [PREVIEW](#preview)
-4. [RESOURCES](#resources)
-5. [BADGES](#badges)
+2. [PREVIEW](#preview)
+3. [RESOURCES](#resources)
+4. [BADGES](#badges)
 
 <br>
 
@@ -29,15 +28,6 @@ The user can sort through and filter out particular employees if they wish.
 
 2. To filter through employees by name, begin typing in the search box until the desired name is provided.
 
-<br>
-
-## INSTALLATION
-
-To run on local computers:
-
-1. The user will need to install the following dependencies by running **npx create-react-app**
-
-2. Delete the react generated src folder and paste in the src file in this repo.
 
 <br>
 
